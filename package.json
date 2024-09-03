@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint . --max-warnings=0 --no-ignore",
-    "prepare": "husky"
+    "prepare": "husky",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "next": "14.2.7",
@@ -19,6 +20,7 @@
     "eslint-config-next": "14.2.7",
     "husky": "^9.1.5",
     "postcss": "^8",
+    "prettier": "^3.3.3",
     "tailwindcss": "^3.4.1"
   }
 }
