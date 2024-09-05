@@ -1,4 +1,4 @@
-name: Hello World
+name: testing linting and formatting PRs
 
 on:
   pull_request:
@@ -16,10 +16,11 @@ jobs:
       - name: Say Hello World
         run: echo "Hello world"
 
-- name: Build Docker container
-
+      - name: Build Docker container
         run: docker build -t my-app .
+
       - name: Run Lint
         run: docker run my-app npm run lint
+
       - name: Run Tests
         run: docker run my-app npm test
