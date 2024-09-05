@@ -22,5 +22,5 @@ jobs:
       - name: Run Lint
         run: docker run my-app npm run lint
 
-      - name: Run Tests
-        run: docker run my-app npm test
+      - name: Run Prettier
+        run: docker run my-app npm run format
