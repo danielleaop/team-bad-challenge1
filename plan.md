@@ -34,5 +34,8 @@ Main Objectives:
 Task 1 - Get a github action up and running
 1. Create github workflow folder ✅
 2. Write a YML file to run the workflow✅
-3. Create a github action to run the workflow
-4. Test the workflow
+3. Create a github action to run the workflow✅
+4. Test the workflow✅
+
+Task 2 - run linting and formatting in github actions docker image
+1. 
