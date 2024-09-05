@@ -2,7 +2,7 @@ export function Title() {
 
     return 
         <h2>
-        Title BAD
+        Title BAD TEST
         </h2>
     
 }
