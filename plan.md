@@ -23,8 +23,16 @@
 
 #Hackathon plan
 
+Main Objectives:
+--When you put in a "Pull Request" (PR) from a feature branch into the main branch there should be a Github Action that automatically runs things like linting, formatting, testing and auditing. 
+--You should not be able to merge a PR into main unless the steps in the Github Action (lint, format etc etc) all pass.
+--You should not be able to push/merge commits directly to the main branch, everything should have to go through the PR process.
+--When you merge the feature branch into the main branch this should trigger an automated workflow in Render. Render should watch for changes in your main branch, when it sees a change it will pull the code, run the Docker production build and then deploy the Next.js site. You should be able to see your Next.js app live on the internet.
+
+
+
+Task 1 - Get a github action up and running
 1. Create github workflow folder ✅
-2. Write a YML file to run the workflow
+2. Write a YML file to run the workflow✅
 3. Create a github action to run the workflow
 4. Test the workflow
-5. 
