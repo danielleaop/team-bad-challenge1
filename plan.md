@@ -9,6 +9,12 @@
 
 #task 2
 
-1. install prettier
-2. write in cmd in husky file to format all files
-3. test
+1. install prettier✅
+2. write in cmd in husky file to format all files✅
+3. test✅
+4. make a simple prettier error to test the formatting cmd after commit: mess up app/page.js ✅
+5. test✅
+
+#task 3
+
+1. put page.js in a components folder and make a component called homepage
