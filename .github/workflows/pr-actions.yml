@@ -1,18 +1,17 @@
 name: Hello World
 
 on:
-   pull_request:
-   branches:
-    - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
-   say-hello:
+  say-hello:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
-    steps:
       - name: Say Hello World
         run: echo "Hello world"
