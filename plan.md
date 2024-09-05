@@ -18,3 +18,13 @@
 #task 3
 
 1. put page.js in a components folder and make a component called homepage
+
+
+
+#Hackathon plan
+
+1. Create github workflow folder ✅
+2. Write a YML file to run the workflow
+3. Create a github action to run the workflow
+4. Test the workflow
+5. 
