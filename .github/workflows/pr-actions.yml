@@ -6,20 +6,17 @@ on:
       - main
 
 jobs:
-  say-hello:
+  format-lint:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Say Hello World
-        run: echo "Hello world"
-
       - name: Build Docker container
         run: docker build -t my-app .
 
-      - name: Run Lint
+      - name: Run Lint check
         run: docker run my-app npm run lint
 
       - name: Run Prettier
