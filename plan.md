@@ -46,7 +46,8 @@ Task 3 - protect our main branch using github rulesets
 1. figure out a way to protect main branch from failed PRs (disable merch)✅
 2. figure out a way to stop ppl committing to main branch ✅
 
-Task 4 - link github main branch and deploy on render 
+Task 4 - link github main branch and deploy on render
+
 1. create a web service in render and configure to our project repo✅
 2. test and go live✅
 3. debug✅
