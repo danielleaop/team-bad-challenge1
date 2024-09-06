@@ -1,8 +1,4 @@
 export function Title() {
-
-    return 
-        <h2>
-        Title BAD TEST
-        </h2>
-    
+  return;
+  <h2>Title BAD TEST</h2>;
 }
