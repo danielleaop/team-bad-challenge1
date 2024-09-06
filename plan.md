@@ -45,4 +45,4 @@ Task 2 - run linting and formatting in github actions docker image✅
 
 Task 3 - protect our main branch using github rulesets
 1. figure out a way to protect main branch from failed PRs (disable merch)
-2. figure out a way to stop ppl committing to main branch
+2. figure out a way to stop ppl committing to main branch lol
