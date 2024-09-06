@@ -8,8 +8,6 @@ RUN npm install
 
 COPY . .
 
-RUN npm run lint && npm run format
-
 EXPOSE 3000
 
-CMD ["npm", "run", "lint"] && ["npm", "run", "format"] && ["npm", "run", "dev"]
+CMD ["npm", "run", "dev"]

@@ -17,7 +17,7 @@ jobs:
         run: docker build -t my-app .
 
       - name: Run Lint check
-        run: docker run my-app npm run lint
+        run: docker run --rm my-app npm run lint
 
       - name: Run Prettier
-        run: docker run my-app npm run format
+        run: docker run --rm my-app npm run format
