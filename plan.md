@@ -34,5 +34,15 @@ Main Objectives:
 Task 1 - Get a github action up and running
 1. Create github workflow folder ✅
 2. Write a YML file to run the workflow✅
-3. Create a github action to run the workflow
-4. Test the workflow
+3. Create a github action to run the workflow✅
+4. Test the workflow✅
+
+Task 2 - run linting and formatting in github actions docker image✅
+1. edit the dockerfile to include run cmds for linting and formatting✅
+2. edit the yml to include run steps for making a docker image, linting and formatting✅
+3. create a branch and a test pull request✅
+4. test & view results✅
+
+Task 3 - protect our main branch using github rulesets
+1. figure out a way to protect main branch from failed PRs (disable merch)
+2. figure out a way to stop ppl committing to main branch lol
